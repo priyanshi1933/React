@@ -1,4 +1,4 @@
- *,
+ /* *,
 *:before,
 *:after{
     padding: 0;
@@ -43,7 +43,7 @@ body{
 }
 form{
     width: 400px;
-    background-color: rgba(255,255,255,0.13);
+    background-color: #212529;;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -122,4 +122,4 @@ button{
 }
 .social i{
   margin-right: 4px;
-}
+} */

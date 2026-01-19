@@ -23,7 +23,9 @@ import Start from "./Comp/Start"
 import { getActiveUser } from "./LocalStorage"
 import UserProvider from "./contexts/UserContext"
 import Initial from "./Initial"
-
+import ErrorBoundary from "./components/ErrorBoundary"
+import MyComp from "./components/MyComp"
+import UsersTable from "./components/UsersTable"
 
 function App() {
 
@@ -43,7 +45,11 @@ function App() {
         {/* <ControlledInput/> */}
         {/* <Login/> */}
         {/* <Register/> */}
-<Initial/>
+        {/* <Initial/> */}
+        {/* <ErrorBoundary>
+          <MyComp/>
+        </ErrorBoundary> */}
+        <UsersTable/>
 
       </div>
       {/* <Routes>
@@ -61,7 +67,7 @@ function App() {
           </Route>
         </Route>
       </Routes> */}
-    
+
     </>
   )
 }
